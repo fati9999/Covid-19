@@ -1,0 +1,33 @@
+.navebar {
+  background-image: url(Design/assets/mergedbar-61/.png);
+}
+
+.navebar .logonav {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.navebar .logonav2 {
+  border: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.navebar .logonav2 img {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.navebar a {
+  color: #1A519E;
+  float: right;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+

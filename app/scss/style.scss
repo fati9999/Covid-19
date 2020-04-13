@@ -1,0 +1,486 @@
+$blue:#1A519E;
+$yalow:#F4CF1B;
+$blue2: #1078AD;
+$gry:#7F7F7F;
+$blue3:#D0E5F0;
+$grin:#369D53;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  
+
+}
+
+// ****************navbar***************
+.navebar {
+  background-color: $blue3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+
+
+  .logo__nav {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .logo__nav2 {
+
+
+
+    img {
+      margin-left: 10px;
+      margin-top: 6px;
+    }
+
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+  }
+
+
+  a {
+    color: $blue;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: black;
+  }
+}
+
+.nav2 {
+  margin-top: 7%;
+  text-align: center;
+  background-color: $yalow;
+  color: $blue2 ;
+  font-weight: 700;
+ 
+  
+
+  h3 {
+    color: black;
+    font-size: 16px;
+  }
+  p{
+    font-size: 17px;
+  }
+}
+
+// *********body*************
+.body {
+  display: flex;
+  justify-content: space-around;
+
+  .body_1 {
+    margin-top: 30px;
+  }
+
+  .body_2 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+   
+    color: $gry;
+
+    h2 {
+      color: $blue2;
+      font-size: 1.34em;
+      margin-bottom: 17px;
+    }
+      p{
+        font-size: 1.40em;
+        margin-bottom: 17px;
+      }
+      
+    
+
+    button {
+      border: none;
+      width: 30rem;
+      height: 3rem;
+      border-radius: 6px;
+      background-color: $blue2;
+      color: white;
+      font-weight: 700;
+      font-size: 27px;
+      margin-top: 10px;
+      margin-bottom: 16px;
+
+    }
+
+  }
+}
+
+// *****************main**********************
+.may_mainf {
+  width: 100%;
+
+
+
+
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: $blue2;
+  }
+
+  .mainf {
+    padding-top: 68px;
+
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    .flex_main {
+      text-align: center;
+      align-items: center;
+      justify-items: center;
+      padding: 0 8%;
+      margin: 0 2%;
+    }
+
+
+    p {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+  }
+
+}
+
+.may_main_2 {
+  background-color: #1078AD;
+  margin-top: 7rem;
+
+  h1 {
+    text-align: center;
+    font-size: 30PX;
+    padding-top: 30px;
+    color: $blue3;
+  }
+
+  .main_2 {
+    padding-bottom: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    p {
+      font-weight: 600;
+      font-size: 28px;
+      color: white;
+      padding-right: 28rem;
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      font-size: 30px;
+
+    }
+
+    .contact_main {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+     
+      h2 {
+        color: $yalow;
+        align-items: center;
+        margin: 0;
+        margin-left: 50rem;
+        
+      }
+
+
+
+      button {
+        border: none;
+        background-color: $yalow;
+        color: $blue2;
+        padding: 14px 38px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 2rem;
+        border-radius: 8px;
+        margin-left: 50rem;
+
+      }
+
+      a {
+        color: white;
+        text-decoration-color: $yalow;
+
+         margin-left: 790px;
+        font-weight: 500;
+        font-size: 28px;
+      }
+    }
+
+  }
+
+}
+
+// ***********footer*********************
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $blue3;
+  text-align: center;
+  padding-bottom: 40px;
+
+  p {
+    font-weight: 700;
+    font-size: 29px;
+    color: $blue2;
+
+  }
+
+
+  .button_footer {
+    border: none;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 6px;
+    background-color: $blue2;
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 18px;
+
+
+
+  }
+
+
+}
+
+.footr_footr {
+
+  .img_footer {
+    margin-left: 36rem;
+    margin-top: 20px;
+  }
+
+  .footer_2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+    h2 {
+      color: $blue2;
+      margin-top: 20px;
+    }
+
+    p {
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    a {
+      color: black;
+      float: right;
+      margin-right: 3rem;
+      margin-top: 2rem;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+
+  .contact__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+///////////////////////////conseli///////////
+  .logo__nav2 {
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+    img {
+      margin-left: 10px;
+    }
+  }
+
+  #contact {
+    color: $grin;
+    margin-left: 40px;
+  }
+
+  a:hover {
+    color: $blue;
+  }
+}
+.may_main1{
+  h2{
+    text-align: center;
+    margin-top: 50px;
+    color: $blue2;
+   
+
+  }
+
+}
+
+  .conseli{
+    width: 95%;
+    margin: 0 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    align-items: center;
+    
+    grid-gap: 50px 50px;
+    text-align: center;
+    
+    
+    p {
+      font-weight: 700;
+      font-size: 18px;
+      font-family:  'Cairo', sans-serif;
+      color:$blue ;
+      
+    }
+   
+  
+  }
+     
+   
+   
+   
+   
+.Informations {
+  display: flex;
+  justify-content: space-around;
+  background-color: $blue3;
+  text-align: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+
+  .info_ {
+    margin-top: 30px;
+    color: $blue;
+    font-weight: 700;
+    h1 {
+      margin-bottom: 15px;
+      color: $blue2;
+    }
+  
+    }
+ 
+    .btn1f {
+      margin-top: 60px;
+      text-decoration: none;
+      color: white;
+      background-color:$blue2 ;
+      height: 30px;
+      padding: 13px 10px;
+      border-radius: 6px;
+     font-weight: 700;
+     font-size: 14px;
+     margin-bottom: 70px;
+       
+    }
+     
+       .btn2f {
+         margin-top: 60px;
+         text-decoration: none;
+         color: white;
+         background-color:$blue2 ;
+         height: 30px;
+         padding: 13px 40px;
+         border-radius: 6px;
+        font-weight: 700;
+        font-size: 14px;
+          }
+  }
+  .may_main{
+    margin-top: 60px;
+    h2{
+      text-align: center;
+      color: $blue2;
+    }
+  }
+  .mainf {
+    padding-top: 68px;
+
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    .flex_main {
+      text-align: center;
+      align-items: center;
+      justify-items: center;
+      padding: 0 8%;
+      margin: 0 2%;
+    }
+
+
+    p {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+  }
+
+  .covid{
+    margin-top: 60px;
+    h2{
+      text-align: center;
+      color: $blue2;
+    }
+  }
+  .covid_19{
+    margin-top: 60px;
+    margin-left: 290px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: $blue;
+    font-weight: 700;
+  }
+  
+  
